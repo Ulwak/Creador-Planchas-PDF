@@ -221,3 +221,9 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+imagenes/*
+!imagenes/.gitignore
+
+PDFs/*
+!PDFs/.gitignore
