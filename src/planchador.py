@@ -5,7 +5,9 @@ from pathlib import Path
 def main():
     ruta_raiz = Path(__file__).parent.parent
     imagenes = listar_imagenes(ruta_raiz)
-    crear_ventana(imagenes)
+    ventana, check_img, botones, altura, ancho, error = crear_ventana(imagenes)
+    botones[0]
+    ventana.mainloop()
 
 if __name__ == "__main__":
     main()
